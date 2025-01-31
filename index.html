@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Foram</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+</head>
+<body>
+    <div class="hero bg-base-200 min-h-screen my-5">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+         
+          <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Phon Number</span>
+                </label>
+
+                <input type="text" placeholder="Your phon number" class="input input-bordered" id="input-num" required />
+
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Pin Number</span>
+                </label>
+
+                <input type="password" placeholder="Your Pin" class="input input-bordered" required autocomplete="off" id="pin-num" />
+
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                </label>
+              </div>
+              <div class="form-control mt-6">
+
+                <button class="btn btn-primary" id="bitin">Login</button>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> 
+      
+      
+
+
+      <script src="index.js"></script>
+</body>
+</html>
